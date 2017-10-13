@@ -1,0 +1,229 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.header {
+    overflow: hidden;
+    
+    min-height: 80px;
+    background-color: #262626;
+    border-bottom: 3px solid #BC4A3F;
+}
+
+.wrapper {
+    width: 90%  ;
+    margin: 0 auto;
+    min-height: 80px;
+}
+
+.logo {
+    
+    float: left;
+    width: 20%;
+    margin-top: 20px;
+}
+.logo h1
+{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 50px
+   
+    
+}
+
+.slider h1 .header_title{
+    
+    font-weight: Bold;
+}
+.nav {
+    float: right;
+    width: 30%;
+        padding-top: 45px;
+}
+
+.nav ul{
+    float: right;
+    list-style: none;
+     margin-bottom: 50px;
+    
+}
+.nav ul li{
+    
+    float: left;
+    padding-left: 25px;
+    
+       
+  
+}
+.nav ul li a {
+    
+    color: white;
+    transition: .5s;
+    text-decoration: none;
+    
+}
+
+.nav ul li a:hover{
+    
+    color: #FF6760;
+   transform: scale(1.5);
+}
+
+
+
+
+
+.slider {
+    
+    min-height: 550px;
+    background-color: #2A2A2A;
+    text-align: center;
+    background-image: url(working-on-laptop-1940x900_36206.png);
+     background-size: cover;
+	 opacity: 70%;
+    background-position:50% 50%;
+        
+        background-attachment: fixed;
+    
+}
+.slider h1{
+    
+    color: #262626;
+    font-size: 90px;
+    font-weight: 100;
+    padding-top: 100px;
+    
+    
+}
+.slider p .red{
+    
+    color: red;
+    font-size: 20px;
+}
+
+.slider h1 .title{
+    
+    
+    font-weight: bolder;
+   
+}
+.slider p{
+    
+    color:#262626; 
+    
+    padding-bottom: 120px;
+}
+   
+.slider button{
+    
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    padding: 12px 32px;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+.slider button a{
+    
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: .5s;
+    
+}
+ 
+.slider button a:hover{
+    
+    color: #5D5F60;
+}
+
+.content {
+    overflow: hidden;
+    background-color: #F6F6F6;
+}
+
+.box {
+    min-height: 80px;
+    width: 30%;
+    float: left;
+    margin-top: 10px;
+    padding-left: 3%;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+
+.box h3{
+    
+font-size: 22px;    
+ font-family: 'Lato', sans-serif;   
+
+}
+
+.image_icon {
+    
+        margin-bottom: 10px;
+        min-height: 40px;
+       text-align: center;
+}
+
+.fa.fa-thumbs-o-up {
+    
+    font-size: 100px;
+}
+
+.fa.fa-cog {
+    font-size: 100px;
+}
+
+.fa.fa-address-book-o {
+font-size: 100px;
+
+}
+
+.fa.fa-database {font-size: 100px;
+}
+
+.fa.fa-fighter-jet {
+    font-size: 100px;
+}
+
+.fa.fa-shield {font-size: 100px;
+}
+
+
+.footer {
+    
+    min-height: 100px;
+    background-color: #262626;
+    text-align: center;
+    
+}
+
+.footer h1{
+    padding-top: 15px;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+
+.footer p{
+    
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+
+.fa.fa-facebook-official {
+    
+    color: #4267B2;
+    font-size: 20px;
+}
+
+.fa.fa-twitter-square {
+    color: #44B3E1;
+    font-size: 20px;
+    
+}
